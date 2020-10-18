@@ -1,4 +1,4 @@
-# Assignment 13-2: Training custom dataset for YOLOV3
+# Object detetcion using YoloV3 for custom dataset
 
 New Class used: Donald Duck
 --------------
