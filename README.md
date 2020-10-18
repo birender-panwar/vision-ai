@@ -47,6 +47,8 @@ Face Alignment using 5-Points Landmark detector by DLIB. In the 5-point model, t
 **Face Swapping**
 It implement face swap model where two front face images of different person is taken as inpted and it generate the output images where first person image is swapped with second person image. It finds 68 points landmarks for both the faces using DLIB. It finds Convex Hull from second image and calculate mask for seamless cloning. It find Delaunay traingulation for convex hull points for both the images. Finally, it apply affine transformation to Delaunay triangles and perform clone seamlessly
 
+![demo](part2/3-face-align-and-face-swap/doc_images/s3_demo_face_swap.gif)
+
 **For Detailed Work:** [(link)](part2/3-face-align-and-face-swap)
 
 ## 7. FACE RECOGNITION
