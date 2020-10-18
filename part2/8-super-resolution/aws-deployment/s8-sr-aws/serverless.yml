@@ -1,0 +1,63 @@
+service: s8-sr-aws
+
+provider:
+  name: aws
+  runtime: python3.8
+  stage: dev
+  region: ap-south-1
+  timeout: 60
+  environment:
+    # stage: ${opt:stage}
+    S3_BUCKET: biru-eva4p2
+    MODEL_PATH: session8/srgan_netG_sf2_cpu.pt
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - s3:getObject
+      Resource: arn:aws:s3:::biru-eva4p2/session8/*
+  apiGateway:
+      binaryMediaTypes:
+        - "multipart/form-data"
+        - "*/*"
+custom:
+  pythonRequirements:
+    dockerizePip: true
+    zip: true
+    slim: true
+    strip: false
+    noDeploy:
+      - docutils
+      - jmespath
+      - pip
+      - python-dateutil
+      - setuptools
+      - six
+      - tensorboard
+    useStaticCache: true
+    useDownloadCache: true
+    cacheLocation: "./cache"
+package:
+  individually: false
+  exclude:
+    - package.json
+    - package-log.json
+    - node_modules/**
+    - cache/**
+    - test/**
+    - __pycache__/**
+    - .pytest_cache/**
+    - model/**
+
+functions:
+  main_handler:
+    handler: handler.main_handler
+    memorySize: 3008
+    timeout: 60
+    events:
+      - http:
+          path: sr
+          method: post
+          cors: true
+
+plugins:
+  - serverless-python-requirements
