@@ -2,7 +2,8 @@
 ### My Projects and experimental works in field of computer vision using deep learning
 
 ## Deployed Model and Web Application
-Few of below works are hosted on AWS Cloud and is accessible throung website 
+Few of below works are hosted on AWS Cloud and is accessible throung website.
+
 Web Application: https://s3.ap-south-1.amazonaws.com/www.aijourney.com/aiwork/vision-ai/index.html
 
 
@@ -22,8 +23,7 @@ This work is implementing the ResNet50, VGG16, and custom CNN classification net
 ## 3. OBJECT DETECTION USING YOLO-V3
 500 unique dataset is collected for class "Donald Duck" whcih is not avaiable in YoloV3. Dataset is self annotated using VGG Annotation tools and trained using Yolo-v3 network.
 
-[![Watch the video](https://img.youtube.com/vi/zkVfTjr1ml4/maxresdefault.jpg)](https://youtu.be/zkVfTjr1ml4)
-
+[![Watch the video](https://img.youtube.com/vi/zkVfTjr1ml4/hqdefault.jpg)](https://youtu.be/zkVfTjr1ml4)
 
 **For Detailed Work:** [(link)](part1/13-object-detection-yolo/part2)
 
