@@ -102,7 +102,7 @@ Model(s) were trained using various input sizes. Initially, the models were trai
 
 The model is build using ResNet50 architecture where the last layer is replaced with softmax layer of 10 classes. The two dense layers of size 1024 and 512 are added on top of the ResNet50 model. The model is build using Stochastic Gradient Descent (SGD) optimizer with a learning rate of 1e-3, decay of 1e-6, momentum of 0.9, batch size of 64 and epochs size of 50. Initial weights for training were taken from the pre-trained ResNet50 model. As per preprocessing step all images are resized to 128 X 128 and normalized. The total number of parameters of the model found to be 57,673,098 out of which 57,619,978 as trainable parameters. Below figure show model architecture using ResNet40.
 
-![sample](doc_images/models-images/resnet50.PNG)
+![sample](doc_images/models-images/restnet50.PNG)
 
 **Model using VGG16** [(Link)](build_model/vgg16) 
 
