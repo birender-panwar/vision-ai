@@ -5,7 +5,7 @@
 ## 1. MONOCULAR DEPTH ESTIMATION AND SEGMENTATION SIMULTANEOUSLY
 In this project custom dataset of around half million images are created and various CNN Network are build that can do monocular depth estimation and foreground-background separation simultaneously.
 
-**Work:** [(link)](p2-8-super-resolution)
+**For Detailed Work:** [(link)](1-monocular-depth-estimation)
 
 
 ## 2. DRIVER ACTIVITY MONITORING
@@ -62,12 +62,12 @@ This is implementation of VAE using KLD loss function to generate India Car imag
 
 **Work:** [(link)](p2-8-super-resolution)
 
-## NEURAL STYLE TRANSFER
+## 10. NEURAL STYLE TRANSFER
 This is implementation of Neural Style Transfer Model that take an image and reproduce it with a new artistic style. The algorithm takes three images, an input image, a content-image, and a style-image, and changes the input to resemble the content of the content-image and the artistic style of the style-image
 
 **Work:** [(link)](p2-8-super-resolution)
 
-## 10. IMAGE SUPER RESOLUTION MODEL (SRGAN)
+## 11. IMAGE SUPER RESOLUTION MODEL (SRGAN)
 This is implementation of Image Super Resolution using SRGAN network for self created Drone images dataset. Model is buit for different upscaler factor of 2 and 4.
 
 **Web Application:** https://s3.ap-south-1.amazonaws.com/www.aijourney.com/eva4p2/s8/sr/s8_sr.html
