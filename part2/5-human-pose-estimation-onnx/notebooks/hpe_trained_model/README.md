@@ -1,0 +1,1 @@
+Copy pose_resnet_50_256x256.pth.tar here
