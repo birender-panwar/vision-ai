@@ -104,7 +104,7 @@ The model is build using ResNet50 architecture where the last layer is replaced 
 
 ![sample](doc_images/models-images/resnet50.PNG)
 
-**Model using VGG16** [(Link)](build_model/vgg) 
+**Model using VGG16** [(Link)](build_model/vgg16) 
 
 The Below figure show model architecture using VGG16 architecture.
 
@@ -138,7 +138,7 @@ Below are few recommendations after model comparison.
 
 We build the solution using the ResNet50 model and performed testing on test data (unseen data). As test data available with us is for left-hand driving, so we build a solution as per procedure is shown in Figure-2 where inputs test images are horizontally flipped before it is passed to the model for prediction. The solution first read the input test image file, it is horizontally flipped, resized to 128 x 128 X 3 and normalization and finally, the pre-processed input data is passed to the model for predicting top 3 class probability. These test images are selected at random from the test dataset of 79,726 images which are not labeled. These test images are unseen and never used for building the model. All the available test images are for the different drivers that does not exist in the training dataset. A few samples of test results are shown below:
 
-![sample](doc_images/test-result-all.PNG)
+![sample](doc_images/test-results/test-result-all.PNG)
 
 **Performance Result of Custom CNN Model deployed on Raspberry PI4 hardware**
 
