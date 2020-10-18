@@ -31,6 +31,7 @@ And it should give two images as output.
  * Experiment with various model architecture
  * Strategy for beating 12 hours colab limitation run
 
+**For complete details on how solution is developed, refer [(Link)](solutions)**
 
  
 
