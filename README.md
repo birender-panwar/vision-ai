@@ -1,8 +1,8 @@
 # VISION-AI
-**My Projects and experimental works in field of computer vision using deep learning**
+### My Projects and experimental works in field of computer vision using deep learning
 
 
-## MONOCULAR DEPTH ESTIMATION AND SEGMENTATION SIMULTANEOUSLY
+## Monocular Depth Estimation and Segmentation Simultaneously
 In this project custom dataset of around half million images are created and various CNN Network are build that can do monocular depth estimation and foreground-background separation simultaneously.
 
 **Work:** [(link)](p2-8-super-resolution)
